@@ -1,15 +1,15 @@
 <template>
   <div>
-    <login />
+    <loginComp />
   </div>
 </template>
 
 <script>
-import login from "../../components/auth/login";
+import loginComp from "../../components/auth/login";
 export default {
   name: "Login",
   components: {
-    login
+    loginComp
   }
 };
 </script>

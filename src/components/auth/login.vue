@@ -1,7 +1,7 @@
 <template>
   <div class="box">
+    <div class="text-center">login</div>
     <form>
-      <span class="text-center">login</span>
       <InputField label="email" />
       <InputField label="password" />
       <button type="button" class="btn">submit</button>
@@ -17,7 +17,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .text-center{
   color:#fff;
   text-transform:uppercase;
